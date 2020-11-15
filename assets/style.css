@@ -1,0 +1,38 @@
+
+/* font-family: 'Great Vibes', cursive; */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e8d9ce;
+    
+
+}
+.nav-bar {
+    background-color: #e3bb9d;
+    height: 40px;
+}
+
+a {
+    color: #4f4e28;
+    color: #fff;
+}
+h1 {
+    color: #926e68;
+    font-size: 2em;
+    font-family:'Great Vibes', cursive;
+    margin-top: 5px;
+    letter-spacing: 5px;
+
+}
+
+.active {
+    color: #B74f2b;
+}
+
+a:hover {
+    color: #926e68;
+
+}

@@ -6,33 +6,73 @@
 }
 
 body {
-    background-color: #e8d9ce;
-    
-
+    background-color: rgb(248,217,199);
+    color:#333;
+    font-family: 'Roboto', sans-serif;
 }
+footer {
+    margin-top: 15px;
+}
+
+/* Nav-Bar Section */
 .nav-bar {
     background-color: #e3bb9d;
-    height: 40px;
 }
 
 a {
-    color: #4f4e28;
-    color: #fff;
+    color:#333;
+
 }
 h1 {
-    color: #926e68;
+    color: #fff;
     font-size: 2em;
     font-family:'Great Vibes', cursive;
     margin-top: 5px;
     letter-spacing: 5px;
 
 }
-
-.active {
-    color: #B74f2b;
+a:hover {
+    color:#fff;
 }
 
-a:hover {
-    color: #926e68;
+.active {
+    color: rgb(255,97,75);
+}
 
+/* End of Nav-Bar */
+
+/* index.html */
+
+
+.photo-of-me {
+    margin-top: 10px;
+    height: 85vh;
+}
+.greeting {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    color: rgb(255,97,75);
+    font-size: 3em;
+}
+.center {
+    margin: auto 20px;
+}
+
+.btn {
+    background-color: rgb(255,97,75);
+    color: #fff;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .photo-of-me {
+    display:block;
+    margin: 10px auto;
+
+  }
 }

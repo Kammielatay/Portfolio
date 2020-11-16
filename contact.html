@@ -6,11 +6,14 @@
         <title>Kameshia's Portfolio</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/assets/style.css">
+        <link rel="stylesheet" href="assets/style.css">
     </head>
 
     <body>
+        <!-- Nav Bar -->
+        <h1 class="text-center">Kameshia Ingram</h1>
         <nav class=nav-bar>
             <ul class="nav justify-content-center">
                 <li class="nav-item">
@@ -19,7 +22,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="about.html">About</a>
                 </li>
-                <h1>Kameshia<br><span>Ingram</span></h1>
+                
                 <li class="nav-item">
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
@@ -28,6 +31,45 @@
                 </li>
             </ul>
         </nav>
+
+        <!-- Form contact -->
+        <section class="form">
+            <form class="text-center p-5" action="#!">
+            
+                <p class="h4 mb-4">Contact Me</p>
+            
+                <!-- Name -->
+                <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+            
+                <!-- Email -->
+                <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+            
+                <!-- Subject -->
+                <input type="subject" id="defaultContactFormSubject" class="form-control mb-4" placeholder="Subject">
+            
+                <!-- Message -->
+                <div class="form-group">
+                    <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"
+                        placeholder="Message"></textarea>
+                </div>
+            
+                <!-- Copy -->
+                <div class="custom-control custom-checkbox mb-4">
+                    <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+                    <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
+                </div>
+            
+                <!-- Send button -->
+                <button class="btn" type="submit">Send Message</button>
+            
+            </form>
+        </section>
+       
+
+
+        <footer class="text-center">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, corrupti.
+        </footer>
 
 
     </body>

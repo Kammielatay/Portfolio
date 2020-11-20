@@ -11,9 +11,21 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 footer {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
+.sticky-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.favicon {
+  padding: 5px;
+}
+
+.copyright {
+    padding-right: 20px;
+}
 /* Nav-Bar Section */
 .nav-bar {
     background-color: #e3bb9d;

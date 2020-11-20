@@ -1,8 +1,8 @@
 
 /* font-family: 'Great Vibes', cursive; */
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
@@ -42,7 +42,9 @@ a:hover {
 /* End of Nav-Bar */
 
 /* index.html */
-
+.row {
+    margin-right: 0px;
+}
 
 .photo-of-me {
     margin-top: 10px;
@@ -52,6 +54,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .header {
@@ -59,7 +62,7 @@ a:hover {
     font-size: 4em;
 }
 .center {
-    margin: auto 20px;
+    margin: auto 0px;
 }
 
 .btn {
@@ -88,6 +91,28 @@ a:hover {
 
 
 /* Portfolio */
+
+.jumbotron {
+    background-color: rgb(248,217,199);
+
+}
+
+.progress {
+    background-color: rgb(248,217,199);
+    font-size: 20px;
+    height: 10px; 
+    margin-bottom: 10px;
+
+}
+
+.progress-bar {
+    background-color:rgb(255,97,75);
+}
+
+span {
+    color: #D18C03;
+    font-size: 20px;
+}
 
 /* Contact */
 

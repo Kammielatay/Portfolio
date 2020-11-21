@@ -138,9 +138,13 @@ span {
 
 
 @media only screen and (max-width: 768px) {
-  .photo-of-me {
+  /* .photo-of-me {
     display:block;
     margin: 10px auto;
 
+  } */
+
+  .img-3 {
+    max-width: 90%;
   }
 }

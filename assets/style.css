@@ -108,7 +108,7 @@ a:hover {
 
 .jumbotron {
     background-color: rgb(248,217,199);
-
+    margin-bottom: 0px;
 }
 
 .progress {
@@ -138,12 +138,6 @@ span {
 
 
 @media only screen and (max-width: 768px) {
-  /* .photo-of-me {
-    display:block;
-    margin: 10px auto;
-
-  } */
-
   .img-3 {
    height: 450px;
   }

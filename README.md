@@ -3,7 +3,7 @@
 ## Description
 
 ![](assets/images/index.html.png)
-![Alt Text](https://github.com/Kammielatay/Portfolio/blob/main/assets/images/index.html.png)
+![Alt Text]()
 
 In this project, I created a simple portfolio to display the projects that I have done throughout the University of Arizona Bootcamp. For this project, I used mainly Bootstrap to develop the container, rows, and columns. Our assignment was to use the CSS framework to quickly style and develop a web application. 
 

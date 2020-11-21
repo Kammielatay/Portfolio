@@ -98,7 +98,7 @@ a:hover {
     margin-top:10px;
 }
 
-.photo {
+.photo, .form {
     display: flex;
     justify-content: center;
 }
@@ -131,13 +131,8 @@ span {
 
 /* Contact */
 
-.form {
-    display: flex;
-    justify-content: center;
-}
 
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
   .img-3 {
    height: 450px;
   }

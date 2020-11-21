@@ -34,7 +34,7 @@ a {
     color:#333;
 
 }
-h1 {
+h1, h2 {
     color: #D18C03;
     font-size: 2em;
     font-family:'Great Vibes', cursive;
@@ -104,7 +104,6 @@ a:hover {
 }
 
 
-
 /* Portfolio */
 
 .jumbotron {
@@ -115,13 +114,14 @@ a:hover {
 .progress {
     background-color: rgb(248,217,199);
     font-size: 20px;
-    height: 10px; 
+    height: 15px; 
     margin-bottom: 10px;
 
 }
 
 .progress-bar {
     background-color:rgb(255,97,75);
+    font-size: 14px;
 }
 
 span {

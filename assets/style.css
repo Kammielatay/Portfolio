@@ -87,6 +87,10 @@ a:hover {
     display: flex;
     margin: 0 auto;
 }
+
+.homepage {
+    color: rgb(255,97,75)
+}
 /* About Me */
 
 .about {

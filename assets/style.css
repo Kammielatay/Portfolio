@@ -102,7 +102,7 @@ a:hover {
     margin-top:10px;
 }
 
-.photo, .form {
+.photo, .form{
     display: flex;
     justify-content: center;
 }
@@ -140,4 +140,11 @@ span {
   .img-3 {
    height: 450px;
   }
-}
+
+  .img {
+    max-height: 650px;
+  }
+  
+
+  
+} 

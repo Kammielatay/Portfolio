@@ -134,8 +134,13 @@ span {
 }
 
 /* Contact */
-
-
+.flex {
+    display: flex;
+}
+#contact-page-img {
+    width: 500px;
+    margin: 20px auto;
+}
 @media only screen and (max-width: 991px) {
   .img-3 {
    height: 450px;

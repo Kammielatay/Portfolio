@@ -128,9 +128,8 @@ a:hover {
 
 }
 
-.progress-bar {
-    background-color:rgb(255,97,75);
-    font-size: 14px;
+.card-body {
+    background-color:#f6e9e1;
 }
 
 span {

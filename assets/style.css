@@ -34,6 +34,10 @@ a {
     color:#333;
 
 }
+
+.a-links {
+    color: rgb(255,97,75);
+}
 h1, h2 {
     color: #D18C03;
     font-size: 2em;

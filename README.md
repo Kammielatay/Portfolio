@@ -8,8 +8,6 @@ In this project, I created a simple portfolio to display the projects that I hav
 
 ![](assets/images/about.html.png)
 
-![](assets/images/portfolio.html.png)
-
 
 I found working with Bootstrap to be beneficial because it cut down on the time to make media queries. I spent less time working on floats and more time on adding my own personal touches to the portfolio. I wanted to make something that showed more than just my projects but also focused on my unique and creative style. So I took the time to capture my brand, my personality, and creative style. 
 

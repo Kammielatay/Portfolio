@@ -138,12 +138,9 @@ span {
 }
 
 /* Contact */
-.flex {
-    display: flex;
-}
-#contact-page-img {
-    width: 500px;
-    margin: 20px auto;
+.contact-info {
+    margin-top: 200px;
+    margin-bottom: 300px;
 }
 @media only screen and (max-width: 991px) {
   .img-3 {

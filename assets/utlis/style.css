@@ -60,7 +60,7 @@ a:hover {
 /* index.html */
 .main-container {
     position: relative;
-    min-height: 100vh;
+    
 }
 .row {
     margin-right: 0px;
@@ -71,11 +71,11 @@ a:hover {
     padding-top: 20px;
     
 }
+
 .greeting {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .header {
@@ -96,6 +96,23 @@ a:hover {
 .homepage, .vital-link {
     color: rgb(255,97,75)
 }
+
+.roundItem {
+    width: 70px;
+    border-radius: 50px;
+}
+
+.skills {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills > img {
+    margin: 20px;
+}
+
 /* About Me */
 
 .about {
@@ -111,7 +128,6 @@ a:hover {
     display: flex;
     justify-content: center;
 }
-
 
 /* Portfolio */
 
@@ -135,6 +151,15 @@ a:hover {
 span {
     color: #D18C03;
     font-size: 20px;
+}
+
+.btn-group > a {
+    margin: 5px;
+}
+
+.btn-group > a > button:hover, .btn-group > a > button:active {
+    background-color: #D18C03;
+    color: #333;
 }
 
 /* Contact */

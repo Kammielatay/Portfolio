@@ -113,6 +113,10 @@ a:hover {
     margin: 20px;
 }
 
+.usedSkills {
+    margin: 5px;
+    width: 50px;
+}
 /* About Me */
 
 .about {
